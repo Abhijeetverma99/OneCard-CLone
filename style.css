@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    /* border: 1px solid red; */
 }
 
 .hero-section {
@@ -14,27 +15,27 @@
 nav {
     background-color: white;
     width: 100%;
-    height: 58px;
+    height: 65px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    padding: 0 180px;
+    padding: 0 90px;
 }
 
 .nav-btn {
-    padding: 8px 10px;
+    padding: 10px 15px;
     background-color: #0093F7;
     color: white;
     cursor: pointer;
     border: none;
     font-size: 13px;
     font-weight: 600;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .nav-logo {
-    width: 60px;
+    width: 70px;
 }
 
 .nav-links {
@@ -45,7 +46,9 @@ nav {
 }
 
 nav li {
-    margin-right: 20px;
+    margin-right: 40px;
+    font-weight: 600;
+    font-size: 15px;
     list-style: none;
     color: black;
 }
@@ -55,13 +58,13 @@ nav li {
 }
 
 .main-hero-section {
-    height: 650px;
+    min-height: 650px;
     width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     align-items: center;
-    padding: 0 180px;
+    padding: 0 90px;
 
 }
 
@@ -80,7 +83,7 @@ nav li {
 
 
 .main-hero-text h1 {
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 200;
     display: flex;
     flex-direction: column;
@@ -94,7 +97,7 @@ nav li {
 
 .hero-section h3 {
     color: black;
-    font-size: 40px;
+    font-size: 35px;
     padding: 10px 0;
     font-weight: 500;
 }
@@ -102,13 +105,14 @@ nav li {
 #hero-section-paragraph {
     color: black;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 31px;
     font-weight: 10;
+
 
 }
 
 .apply-btn {
-    padding: 15px 35px;
+    padding: 15px 30px;
     background-color: #0093F7;
     border-radius: 10px;
     border: none;
@@ -133,7 +137,7 @@ nav li {
 
 .section-2 h1 {
     padding: 20px 0;
-    font-size: 70px;
+    font-size: 65px;
     color: #007ed1;
     font-weight: 500;
     background: #007ED1;
@@ -146,7 +150,7 @@ nav li {
 .section-2 h3 {
     text-align: center;
     color: white;
-    font-size: 45px;
+    font-size: 40px;
     padding: 20px;
     font-weight: 300;
 }
@@ -154,8 +158,8 @@ nav li {
 
 .section-3 {
     width: 100%;
-    height: 80vh;
-    padding: 0 180px;
+    height: 85vh;
+    padding: 0 90px;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -176,7 +180,7 @@ nav li {
 }
 
 .section-3-right {
-    justify-content: flex-end;
+    justify-content: center;
     width: 550px;
     height: 450px;
     display: flex;
@@ -186,17 +190,17 @@ nav li {
 }
 
 .section-3-right img {
-    width: 80px;
+    width: 70px;
 }
 
 .section-3-right h1 {
     text-align: end;
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 500;
 }
 
 .section-3-right p {
-    font-size: 25px;
+    font-size: 27px;
     text-align: end;
     color: rgb(114, 112, 112);
 }
@@ -206,10 +210,10 @@ nav li {
 .section-4 {
     width: 100%;
     height: 80vh;
-    padding: 0 180px;
+    padding: 0 90px;
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     background-color: #F2F2F2;
 }
@@ -227,7 +231,7 @@ nav li {
 }
 
 .section-4-left img {
-    width: 80px;
+    width: 70px;
 }
 
 .section-4-left h1 {
@@ -263,11 +267,11 @@ nav li {
 }
 
 .section-5 {
-    height: 70vh;
+    min-height: 90vh;
     width: 100%;
-    padding: 0 180px;
+    padding: 0 90px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-between;
 
@@ -295,7 +299,7 @@ nav li {
 }
 
 .text-sec-5 h1 {
-    font-size: 70px;
+    font-size: 65px;
     font-weight: 500;
 }
 
@@ -305,24 +309,27 @@ nav li {
 }
 
 .text-sec-5 img {
-    width: 80px;
+    width: 70px;
 }
 
+.section-5 video {
+    width: 450px;
+}
 
 .section-6 {
     width: 100%;
-    height: 80vh;
+    min-height: 100vh;
     background-color: #F2F2F2;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 180px;
+    padding: 0 90px;
 }
 
 
 .sec-6-video {
     width: 500px;
-    height: 400px;
+    height: 450px;
     background-color: #F2F2F2;
     display: flex;
     flex-wrap: wrap;
@@ -337,28 +344,28 @@ nav li {
     display: flex;
     flex-direction: column;
     padding-left: 40px;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-start;
 
 }
 
 .sec-6-text h1 {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 500;
 }
 
 .sec-6-text p {
-    font-size: 25px;
+    font-size: 22px;
     color: rgb(114, 112, 112);
 }
 
 .sec-6-text img {
-    width: 85px;
+    width: 70px;
 }
 
 .section-7 {
     width: 100%;
-    padding: 40px 180px;
+    padding: 40px 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -378,33 +385,35 @@ nav li {
     text-align: end;
     display: flex;
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: column;
 }
 
 .sec-7-text img {
-    width: 100px;
+    width: 75px;
 }
 
 .sec-7-text h1 {
-    font-size: 75px;
+    font-size: 65px;
     font-weight: 500;
 }
 
 
 
 .sec-7-text p {
-    font-size: 25px;
+    font-size: 22px;
     color: rgb(114, 112, 112);
 }
 
 
-
+.section-7 video {
+    width: 450px;
+}
 
 .section-8 {
     width: 100%;
     height: 80vh;
-    padding: 0 180px;
+    padding: 0 90px;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -425,7 +434,7 @@ nav li {
 }
 
 .section-8-left img {
-    width: 80px;
+    width: 70px;
 }
 
 .section-8-left h1 {
@@ -447,7 +456,7 @@ nav li {
 }
 
 .section-8-left p {
-    font-size: 25px;
+    font-size: 22px;
     color: rgb(114, 112, 112);
 }
 
@@ -462,8 +471,9 @@ nav li {
 
 .section-9 {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     text-align: center;
+    padding: 0 90px;
 }
 
 .sec-9-main {
@@ -478,7 +488,7 @@ nav li {
 
 
 .section-9 h1 {
-    font-size: 70px;
+    font-size: 60px;
     padding: 30px 0;
     font-weight: 500;
 }
@@ -515,9 +525,9 @@ nav li {
 
 .section-10 {
     width: 100%;
-    height: 75vh;
+    min-height: 75vh;
     background-color: #F2F2F2;
-    padding: 40px 180px;
+    padding: 40px 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -530,24 +540,23 @@ nav li {
 }
 
 .section-10 h2 {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 100;
-    padding: 20px 0;
+    padding: 20px 50px;
     color: rgb(106, 103, 103);
 }
 
 .sec-10-main {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
 }
 
 .sec-10-images {
-    width: 360px;
-    height: 135px;
+    width: 340px;
+    height: 125px;
     background-position: center;
     background-size: cover;
     border-radius: 20px;
@@ -573,27 +582,26 @@ footer {
     flex-direction: column;
     align-items: center;
     background-color: #0C161B;
-    /* position: absolute; */
 }
 
 .footer-logo {
     width: 65px;
-    padding: 10px 0;
+    padding: 30px 0;
 }
 
 .heart-image {
-    width: 400px;
+    width: 350px;
 }
 
 footer h1 {
     color: rgb(26, 26, 241);
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 footer p {
     color: white;
-    font-size: 22px;
-    padding: 30px;
+    font-size: 18px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -604,13 +612,13 @@ footer .apply-btn {
 
 footer h2 {
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     padding: 10px 0;
 }
 
 .social-image {
-    padding: 50px 0;
-    font-size: 45px;
+    padding: 40px 0;
+    font-size: 35px;
     color: white;
 }
 
@@ -643,10 +651,11 @@ a {
     text-decoration: none;
     font-weight: 200;
     color: #0093F7;
+    font-size: 15px;
 }
 
 .banking-partners {
-    width: 350px;
+    width: 300px;
     margin-top: 50px;
 }
 
@@ -656,31 +665,19 @@ a {
 
 
 .registry img:first-child {
-    width: 60px;
+    width: 55px;
     margin-bottom: 10px;
 }
 
 .registry img:nth-child(2) {
-    width: 65px;
+    width: 60px;
 }
 
 .registry img:last-child {
-    width: 60px;
+    width: 55px;
     margin-bottom: 20px;
 }
 
-
-
-.backtop-btn {
-    background-color: white;
-    color: rgb(12, 157, 12);
-    padding: 15px;
-    border-radius: 200px;
-    border: none;
-    position: sticky;
-    bottom: 10px;
-    margin-left: 92rem;
-}
 
 @media(max-width: 768px) {
 
@@ -714,12 +711,18 @@ a {
 
     .main-hero-section {
         height: auto;
-        padding: 0;
-        flex-wrap: wrap-reverse;
+        padding: 0 10px;
+        flex-wrap: wrap;
     }
 
-    .main-hero-video {
-        margin-top: 80px;
+
+    .main-hero-section h1 {
+        font-size: 52px;
+    }
+
+    #hero-section-paragraph {
+        font-size: 18px;
+        line-height: 20px;
     }
 
     .section-2 {
@@ -740,6 +743,7 @@ a {
     .section-3 {
         padding: 0;
         height: auto;
+        padding: 0 40px;
         flex-wrap: wrap;
     }
 
@@ -749,30 +753,48 @@ a {
     }
 
     .section-3-right {
-        justify-content: flex-start;
+        width: 100%;
+        justify-content: center;
+        padding-right: 40px;
+    }
+
+    .section-3-right h1 {
+        font-size: 60px;
+    }
+
+    .section-3-right p {
+        font-size: 30px;
     }
 
     .section-4 {
         height: auto;
-        padding: 0px;
+        padding: 0 40px;
+        flex-wrap: wrap;
     }
 
-
-
     .section-4-right img {
-        width: 450px;
+        width: 400px;
     }
 
     .section-5 {
         margin-top: 40px;
-        padding: 0px;
+        padding: 0px 40px;
         height: auto;
+        flex-wrap: wrap;
+    }
+
+    .text-sec-5 {
+        width: 100%;
+    }
+
+    .section-5 video {
+        width: 400px;
     }
 
     .section-6 {
         height: auto;
         flex-wrap: wrap;
-        padding: 30px 0;
+        padding: 20px 65px;
     }
 
     .sec-6-video {
@@ -781,11 +803,11 @@ a {
     }
 
     .sec-6-video video {
-        width: 450px;
+        width: 400px;
     }
 
     .sec-6-text {
-        padding-left: 0;
+        padding: 25px 0;
         height: auto;
         justify-content: flex-start;
     }
@@ -800,11 +822,17 @@ a {
 
 
     .section-7 {
-        padding: 30px 0;
+        padding: 30px 45px;
         flex-wrap: wrap;
     }
 
+    .sec-7-text {
+        width: 100%;
+    }
 
+    .section-7 video {
+        width: 400px;
+    }
 
     .section-8 {
         padding: 20px 0;
@@ -814,6 +842,7 @@ a {
     .section-8-left {
         justify-content: flex-start;
     }
+
 
     .section-9 {
         height: auto;
@@ -843,7 +872,7 @@ a {
 
     .sec-10-main {
         width: 100%;
-        height: 500px;
+        height: 450px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -851,7 +880,12 @@ a {
         margin-top: 50px;
     }
 
+    .sec-10-images {
+        margin: 0px 20px;
+    }
+
     footer {
+        height: auto;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -860,13 +894,8 @@ a {
         background-color: #0C161B;
     }
 
-
     .ul-container {
         padding: 0;
-        width: 350px;
-        align-items: flex-start;
-        margin-right: 60px;
-        height: 800px;
+        justify-content:space-around;
     }
-
 }
